@@ -1,9 +1,14 @@
 // Bad SCSS
 .selector {
+  padding: 15px;
+  .nested-selector {
     padding: 15px;
+  }
+}
+.another-selector {
 
   .nested-selector {
-      padding: 15px;
+    margin: 10px auto;
   }
 }
 
@@ -13,5 +18,11 @@
 
   .nested-selector {
     padding: 15px;
+  }
+}
+
+.another-selector {
+  .nested-selector {
+    margin: 10px auto;
   }
 }
