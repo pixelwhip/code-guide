@@ -1,0 +1,17 @@
+/* Bad SCSS */
+.selector {
+    padding: 15px;
+
+  .nested-selector {
+      padding: 15px;
+  }
+}
+
+/* Good SCSS */
+.selector {
+  padding: 15px;
+
+  .nested-selector {
+    padding: 15px;
+  }
+}

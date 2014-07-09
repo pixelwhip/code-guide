@@ -24,9 +24,10 @@ layout: default
     </ul>
   </div>
   <div class="col">
-    <h4><a href="#css">CSS</a></h4>
+    <h4><a href="#css">SCSS</a></h4>
     <ul>
       <li><a href="#css-syntax">CSS syntax</a></li>
+      <li><a href="#css-indentation">Indentation</a></li>
       <li><a href="#css-declaration-order">Declaration order</a></li>
       <li><a href="#css-import">Don't use @import</a></li>
       <li><a href="#css-media-queries">Media query placement</a></li>
@@ -211,7 +212,6 @@ layout: default
   <div class="col">
     <h3>Syntax</h3>
     <ul>
-      <li>Use soft tabs with two spaces—they're the only way to guarantee code renders the same in any environment.</li>
       <li>When grouping selectors, keep individual selectors to a single line.</li>
       <li>Include one space before the opening brace of declaration blocks for legibility.</li>
       <li>Place closing braces of declaration blocks on a new line.</li>
@@ -230,6 +230,16 @@ layout: default
   </div>
   <div class="col">
     {% highlight css %}{% include css/syntax.css %}{% endhighlight %}
+  </div>
+</div>
+
+<div class="section" id="css-indentation">
+  <div class="col">
+    <h3>Indentation</h3>
+    <p>Use soft tabs with <strong>two</strong> spaces—they're the only way to guarantee code renders the same in any environment.</p>
+  </div>
+  <div class="col">
+    {% highlight scss %}{% include css/indentation.scss %}{% endhighlight %}
   </div>
 </div>
 

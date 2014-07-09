@@ -1,7 +1,7 @@
-name:          Code Guide by @mdo
-description:   Standards for developing flexible, durable, and sustainable HTML and CSS.
-url:           http://codeguide.co
+name:          Aten Coding Standards
+description:   HTML and SCSS Development Standards.
+url:           https://github.com/pixelwhip/code-guide
 
 markdown:      rdiscount
 permalink:     pretty
-pygments:      true
+highlighter:   pygments
